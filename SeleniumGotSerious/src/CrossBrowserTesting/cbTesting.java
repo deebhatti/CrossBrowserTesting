@@ -21,6 +21,8 @@ public class cbTesting {
 			driver = new FirefoxDriver();
 		}
 		
+		//Add a comment to see in Github
+		
 		else if(browser.equalsIgnoreCase("chrome")){
 			System.setProperty("webdriver.chrome.driver", "C:\\Webdrivers\\chromedriver_win32\\chromedriver.exe");
 			driver = new ChromeDriver();
